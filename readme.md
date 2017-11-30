@@ -1,4 +1,4 @@
-# Simple Nginx Proxy
+# Simple Docker Nginx Proxy
 
 ## Usage
 
