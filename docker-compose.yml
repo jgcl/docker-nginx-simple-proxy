@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nginx:
+    container_name: nginx
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      serverproxy: "10.10.5.150:8280"
+    ports:
+      - 80:80
